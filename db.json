@@ -1,0 +1,38 @@
+{
+  "auth_ok": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJ1c2VyMUBhbGFjYXphLmxvY2FsIiwic2NvcGUiOlsid2ViIl0sImFjY291bnRzIjpbeyJhY2NvdW50SWQiOiIxK3Rlc3QiLCJwcm9wZXJ0eUlkIjoiNWM5Y2JmODdkM2RiMDkzMjM0NTZhZDJkIiwiem9uZUlkIjoiNWM5Y2JlZWFkM2RiMDkzMTkyNTZjZjM0In0seyJhY2NvdW50SWQiOiIxK3Rlc3QyIiwicHJvcGVydHlJZCI6IjVjOWNiZjg3ZDNkYjA5MzIzNDU2YWQyZSIsInpvbmVJZCI6IjVjOWNiZWVhZDNkYjA5MzE5MjU2Y2YzNCJ9XSwiZXhwIjoxNTU1MDA0ODU0LCJ1c2VySWQiOjEsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiIyYzAzZmYxYi0zM2YxLTRkM2EtOWMzMS0zYzk5YzE0NDBiNzMiLCJlbWFpbCI6InVzZXIxQGFsYWNhemEubG9jYWwiLCJjbGllbnRfaWQiOiJhbGFjYXphX3dlYkNsaWVudElkIn0.IMN8XyWOlMLhxhKb-OHViOdYQJ4TocEghGGVEYsKMKs",
+    "token_type": "bearer",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJ1c2VyMUBhbGFjYXphLmxvY2FsIiwic2NvcGUiOlsid2ViIl0sImF0aSI6IjJjMDNmZjFiLTMzZjEtNGQzYS05YzMxLTNjOTljMTQ0MGI3MyIsImFjY291bnRzIjpbeyJhY2NvdW50SWQiOiIxK3Rlc3QiLCJwcm9wZXJ0eUlkIjoiNWM5Y2JmODdkM2RiMDkzMjM0NTZhZDJkIiwiem9uZUlkIjoiNWM5Y2JlZWFkM2RiMDkzMTkyNTZjZjM0In0seyJhY2NvdW50SWQiOiIxK3Rlc3QyIiwicHJvcGVydHlJZCI6IjVjOWNiZjg3ZDNkYjA5MzIzNDU2YWQyZSIsInpvbmVJZCI6IjVjOWNiZWVhZDNkYjA5MzE5MjU2Y2YzNCJ9XSwiZXhwIjoxNTU1ODY1MjU0LCJ1c2VySWQiOjEsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiJlMWJlYzZiMi0xMzkxLTRjZjUtYjdkZi1kODEzN2YzOTYxZjYiLCJlbWFpbCI6InVzZXIxQGFsYWNhemEubG9jYWwiLCJjbGllbnRfaWQiOiJhbGFjYXphX3dlYkNsaWVudElkIn0.JthVTaPPYhWpnsRsHBqiL5yOBv5dlKvIQkdv-Qz_9Dc",
+    "expires_in": 3599,
+    "scope": "web",
+    "accounts": [
+        {
+            "accountId": "1+test",
+            "propertyId": "5c9cbf87d3db09323456ad2d",
+            "zoneId": "5c9cbeead3db09319256cf34"
+        },
+        {
+            "accountId": "1+test2",
+            "propertyId": "5c9cbf87d3db09323456ad2e",
+            "zoneId": "5c9cbeead3db09319256cf34"
+        }
+    ],
+    "userId": 1,
+    "email": "user1@dev.local",
+    "jti": "2c03ff1b-33f1-4d3a-9c31-3c99c1440b73"
+  },
+  "me": {
+    "userId": "1",
+    "email": "user1@dev.local",
+    "firstName": "Jean-Michel",
+    "lastName": "Test",
+    "accounts": 
+      [
+        {
+          "accountId": "user1+1@dev.local",
+          "propertyName": "Maison bleue",
+          "zoneName": "Zone A"
+        }
+      ]
+  }
+}
